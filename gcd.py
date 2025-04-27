@@ -3,7 +3,7 @@ from PIL import Image
 c1, c2 = s.columns(2)
 with c1:
     s.write("hi Ms.")
-    i=Image.open("df.png")
+    i=Image.open("p.png")
     s.i(i,use_column_width=True)
 with c2:
     s.header("priyadharshini\n goto side bar")
