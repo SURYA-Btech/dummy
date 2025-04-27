@@ -4,7 +4,7 @@ c1, c2 = s.columns(2)
 with c1:
     s.write("hi Ms.")
     i=Image.open("p.png")
-    s.image(i,use_column_width=True)
+    s.image(i,use_container_width=True)
 with c2:
     s.header("priyadharshini\n goto side bar")
     s.sidebar.subheader("are you lucky? select any opiton in side bar")
